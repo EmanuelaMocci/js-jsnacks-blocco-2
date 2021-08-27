@@ -8,11 +8,11 @@ var sum = 0;
 for (var i = 0; i < numeri.length; i++) {
     if(i % 2 === 1) { 
         numeriDispari.push(numeri[i]);
-        result = sum += numeri[i];
+        sum += numeri[i];
     }
 }
 console.log(numeriDispari);
-console.log(result);
+console.log(sum);
 
 
 
